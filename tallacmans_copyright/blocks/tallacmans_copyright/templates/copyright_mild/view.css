@@ -1,0 +1,23 @@
+/* you can customize the display of the output with these options */
+
+.ccm-tallacmans-copyright {
+        font-size: 90%
+}
+
+span.ccm-tallacmans-copyright-text {
+    color: gray;
+}
+
+span.ccm-tallacmans-copyright-years {
+    color: gray;
+}
+
+span.ccm-tallacmans-copyright-holder {
+    font-weight: bold;
+    color: gray;
+}
+
+span.ccm-tallacmans-copyright-rights {
+    color: gray;
+    font-style: italic;
+}
