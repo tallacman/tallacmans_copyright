@@ -79,9 +79,6 @@ class Controller extends BlockController
         if($args["copyrightStart"] > $thisYear){
                 $e->add(t('Start year can\'t be in the future.'));
             }
-        if($args["copyrightStart"] == $thisYear){
-                $e->add(t('Start year can\'t be this year.'));
-            }
         if(strlen($args['copyrightHolder']) >= 70){
             	$e->add(t('Copyright holder text must be shorter that 70 characters.'));
             }

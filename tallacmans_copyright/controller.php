@@ -8,7 +8,7 @@ class Controller extends Package {
 
      protected $pkgHandle = 'tallacmans_copyright';
      protected $appVersionRequired = '5.7.5';
-     protected $pkgVersion = '0.9.3';
+     protected $pkgVersion = '1.0';
 
      public function getPackageDescription() {
           return t("Display your legal copyright with style.");

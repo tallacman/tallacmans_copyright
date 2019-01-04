@@ -1,7 +1,10 @@
-<?php  defined("C5_EXECUTE") or die("Access Denied."); ?>
-<div class="ccm-tallacmans-copyright"><span class="ccm-tallacmans-copyright-text"><?php  echo t('copyright'); ?> &copy;</span><span class="ccm-tallacmans-copyright-years">
+<?php  defined("C5_EXECUTE") or die("Access Denied.");
+$thisYear = date("Y");
+?>
+<div class="ccm-tallacmans-copyright small"><span class="ccm-tallacmans-copyright-text"><?php  echo t('copyright'); ?> &copy;</span><span class="ccm-tallacmans-copyright-years">
+
 <?php
-    if (isset($copyrightStart) && trim($copyrightStart) != "") {
+    if (isset($copyrightStart) && trim($copyrightStart) != "" && trim($copyrightStart) !=$thisYear) {
         echo $copyrightStart;
         echo ' - ';
         echo date("Y ");
