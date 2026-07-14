@@ -166,7 +166,7 @@ class Controller extends BlockController
 
     protected function getFontFamilyOptions()
     {
-        return [
+        $options = [
             '' => t('Inherit from theme'),
             '"Droid Sans", "Nunito Sans", Roboto, sans-serif' => t('Droid Sans / Nunito Sans'),
             'Roboto, sans-serif' => t('Roboto'),
@@ -176,6 +176,8 @@ class Controller extends BlockController
             'system-ui, -apple-system, "Segoe UI", sans-serif' => t('System UI'),
             self::FONT_FAMILY_CUSTOM => t('Custom...'),
         ];
+
+        return $options;
     }
 
     protected function getFontWeightOptions()

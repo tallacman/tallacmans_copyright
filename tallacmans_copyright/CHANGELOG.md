@@ -1,3 +1,8 @@
+### version 2.1.1 - July 14, 2026
+
+- removed dependency on `tallacmans_google_fonts` helper (`FontPickerHelper`)
+- made font family options fully local so the block works as a standalone package
+
 ### version 2.1.0 - July 1, 2026
 
 - added custom font family picker with CSS stack input and live preview
